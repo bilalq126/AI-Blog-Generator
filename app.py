@@ -103,4 +103,4 @@ if st.session_state.blog_content:
     )
 
 st.markdown("---")
-st.markdown("💡 Tip: Ensure your Google Colab notebook with Ollama and ngrok is running!")
+st.markdown("Made By Bilal Qadeer using Streamlit and Google Gemini.")
