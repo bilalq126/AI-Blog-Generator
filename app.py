@@ -4,10 +4,10 @@ import re
 
 # -----------------------------------------------------------------------------
 # IMPORTANT: Replace this with your Google Gemini API key.
-genai.configure(api_key="YOUR_GEMINI_API_KEY") 
+# genai.configure(api_key="YOUR_GEMINI_API_KEY") 
 
 # If using Streamlit secrets, uncomment the line below and set your key in .streamlit/secrets.toml
-# genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 # -----------------------------------------------------------------------------
 model = genai.GenerativeModel("gemini-1.5-flash")
 
